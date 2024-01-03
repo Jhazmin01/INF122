@@ -1,1 +1,2 @@
-inf122
+NOMBRE: Jhazmin Quino
+MATERIA: INF-122
