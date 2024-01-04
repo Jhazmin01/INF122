@@ -1,0 +1,38 @@
+body {
+    background-color: #b3a89d;
+}
+h1{
+    text-align: center;
+    color: #8a2073;
+}
+h2{
+    color: #167da5;
+}
+p {
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    color:rgb(0, 174, 255);
+}
+img {
+    max-width : 25%;
+    max-height: 25%;
+}
+ol li{
+    font-size: 30px;
+    color: purple
+}
+ul li{
+    color: green;
+    font-weight: bold;
+    background-color: yellow;
+    text-align: center;
+}
+.Enviar{
+    border-radius: 5px;
+    background-color: #a9ffad;
+    color: #3b3834;
+}
+.etiqueta{
+    background-color: rgb(240, 138, 181);  
+}
