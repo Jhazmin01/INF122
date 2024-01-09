@@ -39,32 +39,11 @@
             justify-items: center;
             background-color: var(--white);
         }
-        .title{
-            color: var(--black);
-            text-align: center;
-            font-size: var(--lg);
-        }
-        .subtitle {
-            color: var(--black);
-            text-align: center;
-            font-size: var(--md);
-            margin: 5px 0 5px 0;
-        }
-
-        .primary-button {
-            background-color: var(--purple);
-            color: var(--white);
-            border: none;
-            border-radius: 5px;
-            padding: 10px 20px;
-            font-size: var(--md);
-            cursor: pointer;
-            margin: 100px 0 100px 0;
-        }
         .more-info {
             display: grid;
             background-color: var(--light-purple);
             width: 100%;
+            align-content: space-around;
         }
 
         .title {
@@ -89,6 +68,7 @@
             font-size: var(--md);
             cursor: pointer;
             margin: 100px 0 100px 0;
+            
         }
 
         .icons-container {
@@ -129,7 +109,19 @@
             font-size: var(--sm);
             margin: 0;
         }
+        
+        @media (max-width: 720px) {
+            .icons-container {
+                grid-template-columns: repeat(1, 1fr);
+                margin: 50px 10px 50px 10px;
 
+            }
+        @media (max-width: 600px) {
+            .subtitle {
+                display: none;
+            }  
+        }
+        }
         </style>
     
 </head>
@@ -140,8 +132,13 @@
             <p class="subtitle">Free product design illustrations for startups and designers.</p>
             <p class="subtitle"> High-quality digital assets that have been tested and reviewed by a team of </p>
             <button class="primary-button" value="">
+                <div class="card-container">
+                <figure>
+                    <img src="imagenes figma/bx_bxs-download.svg">
+                </figure>
                 <span>Download Brochure</span>
             </button>
+        </div>
         </div>
         <div class="more-info">
             <section class="icons-container">
