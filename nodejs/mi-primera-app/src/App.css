@@ -10,29 +10,10 @@ body {
 }
 
 .App {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   width: 100%;
   height: 100vh;
-  justify-items: center;
-  align-items: center;
-}
-
-.contenedor-principal {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.contendedor-botones {
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-
-}
-
-.contendedor-botones-numeros {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  justify-content: center;
   align-items: center;
 }
